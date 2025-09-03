@@ -1,36 +1,38 @@
-# Study Case Analisis Tingkat Stres Karyawan di Perusahan
+# Study Case E-Commerce Tokopedia
 ## 1. Data (D)
-### Semisal perusahaan A melakukan survey pada 1000 karyawan mengenai tingkat stres mereka. hasil survey menghasilkan data berupa : 
-### 1. Jam kerja per minggu : 40, 45, 60, 70, ...
-### 2. Jumlah rapat per minggu : 3, 5, 10, ....
-### 3. Tingkat kepuasan kerja (1 - 5) : 8, 5, 7, ...
-### 4. Skor stres (1 - 10): 8, 5, 7 …
-### 5. Gender, usia, divisi, lokasi kerja
-### Ini adalah data mentah hasil survey tersebut
+### Tokopedia menyimpan data mentah dari jutaan transaksi setiap hari, misalnya:
+### 1. ID transaksi, ID user : A0123 & U001
+### 2. Produk yang dibeli : Sepatu Sneakers
+### 3. Harga produk : Rp 450.000
+### 4. Waktu transaksi : 2024-07-01 14:35
+### 5. Lokasi pembeli : Surabaya
+### 6. Jumlah produk yang dibeli : 1
 
 ## 2. Information (I)
 ### data mentah diatas bisa diolah menjadi sebuah informasi. Perusahaan akan menghitung dan memvisualisasikan : 
-### 1. Rata-rata jam kerja per minggu: 52 jam
-### 2. Rata-rata skor stres: 7,2
-### 3. Divisi dengan stres tertinggi: Divisi IT (rata-rata skor 8,1)
-### 4. Hubungan awal (korelasi): jam kerja tinggi → skor stres cenderung tinggi
+### 1. 70% transaksi terjadi di Jawa.
+### 2. Waktu transaksi tertinggi: jam 12.00–14.00 dan 20.00–22.00.
+### 3. Kategori paling laris: Fashion dan Elektronik.
+### 4. Rata-rata belanja per pengguna: Rp 275.000.
 ### kita sudah bisa melihat gambaran besarnya meskipun belum terlalu detail
 
 ## 3. Knowledge (K)
 ### Ketika kita menganalisa informasi lebih lanjut, maka kita akan menemukan knowledge. Hal ini bertujuan untuk menemukan hubungan atau sebab akibat. 
 ### Contoh : 
-### 1. Karyawan dengan jam kerja > 55 jam/minggu 3x lebih berisiko mengalami stres tinggi.
-### 2. Tingkat kepuasan kerja rendah (< 3) sangat berkorelasi dengan stres tinggi.
-### 3. Akses terhadap fasilitas kesehatan mental (konseling, cuti tambahan) terbukti menurunkan skor stres rata-rata 2 poin.
-### di tahap ini sudah muncul faktor-faktor kunci yang menyebabkan masalah. di contoh ini mengetahui faktor penyebab stres
+### 1. Pengguna cenderung belanja saat jam istirahat & malam hari.
+### 2. Produk fashion lebih sering dibeli oleh pengguna usia 18–30 tahun.
+### 3. Promosi free ongkir meningkatkan transaksi hingga 35% di luar Pulau Jawa.
+### 4. Ada korelasi kuat antara flash sale dengan peningkatan jumlah transaksi impulsif.
+### di tahap ini sudah muncul faktor-faktor kunci yang menyebabkan masalah. di contoh ini mengetahui faktor peningkatan penjualan
 
 ## 4. Wisdom (W)
 ### Wisdom adalah tindakan lanjutan yang dilakukan setelah mengetahui hasil dari step sebelumnya. 
 ### Contoh dari analisa perusahaan memutuskan : 
-### 1. Menerapkan batas maksimal jam kerja 50 jam/minggu.
-### 2. Memberikan akses konseling online gratis untuk semua karyawan.
-### 3. Melakukan program manajemen stres di divisi IT.
-### 4. Membuat kebijakan “No Meeting Friday” untuk mengurangi kelelahan.
+### 1. Meluncurkan Flash Sale jam 12 siang & jam 8 malam untuk memaksimalkan transaksi.
+### 2. Memberikan subsidi ongkir lebih besar untuk luar Jawa agar penetrasi pasar lebih luas.
+### 3. Menargetkan promosi fashion ke segmentasi usia 18–30 tahun dengan iklan personalisasi.
+### 4. Mengembangkan fitur Live Shopping agar lebih menarik bagi pembeli impulsif.
+### Keputusan ini berdampak pada peningkatan GMV (Gross Merchandise Value) dan memperkuat posisi Tokopedia di pasar e-commerce Indonesia.
 
 ## Summary
 ### Data = angka mentah hasil survei.
